@@ -27,3 +27,11 @@ li {
 p {
   line-height: 1.5;
 }
+/*  make the paragraphe in the footer more small*/
+footer p {
+  font-size: 14px;
+}
+/* make the paragraph instead of header of article men italic */
+article header p {
+  font-style: italic;
+}
