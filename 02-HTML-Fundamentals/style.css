@@ -28,10 +28,20 @@ p {
   line-height: 1.5;
 }
 /*  make the paragraphe in the footer more small*/
-footer p {
-  font-size: 14px;
-}
+
 /* make the paragraph instead of header of article men italic */
 article header p {
   font-style: italic;
+}
+.related {
+  list-style-type: none;
+}
+#footer {
+  font-size: 14px;
+  text-align: center;
+}
+.related-author {
+  color: burlywood;
+  font-size: 18px;
+  font-weight: bold;
 }
