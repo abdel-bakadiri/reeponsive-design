@@ -57,3 +57,11 @@ article header p {
 .main-header {
   background-color: #e7e6e6;
 }
+aside {
+  background-color: #e7e6e6;
+  border-top: 5px solid #158989;
+  border-bottom: 5px solid #158989;
+}
+/* body {
+  background-color: blue;
+} */
