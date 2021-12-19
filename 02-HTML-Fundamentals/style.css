@@ -62,3 +62,21 @@ aside {
   border-top: 5px solid #158989;
   border-bottom: 5px solid #158989;
 }
+/* a {
+  color: #ff0000;
+} */
+a:link {
+  color: #0000ff;
+  text-decoration: none;
+}
+a:visited {
+  color: #008000;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+  text-decoration: underline dotted #ff0000;
+}
+a:active {
+  background-color: antiquewhite;
+}
