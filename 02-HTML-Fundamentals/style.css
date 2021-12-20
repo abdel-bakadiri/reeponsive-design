@@ -80,3 +80,18 @@ a:hover {
 a:active {
   background-color: antiquewhite;
 }
+a {
+  color: red;
+}
+#copyright {
+  color: #ff0000;
+}
+.copyright {
+  color: #008000;
+}
+.text {
+  color: #0000ff;
+}
+footer p {
+  color: #ffff00;
+}
