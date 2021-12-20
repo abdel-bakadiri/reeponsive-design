@@ -87,7 +87,7 @@ a {
   color: #ff0000;
 }
 .copyright {
-  color: #008000;
+  color: #008000 !important;
 }
 .text {
   color: #0000ff;
