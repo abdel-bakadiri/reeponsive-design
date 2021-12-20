@@ -1,3 +1,9 @@
+* {
+  /* border: 1px solid red; */
+}
+body {
+  color: #4b4b4b;
+}
 h1,
 h2,
 h3,
@@ -65,7 +71,7 @@ aside {
 /* a {
   color: #ff0000;
 } */
-a:link {
+/* a:link {
   color: #0000ff;
   text-decoration: none;
 }
@@ -82,7 +88,7 @@ a:active {
 }
 a {
   color: red;
-}
+} */
 #copyright {
   color: #ff0000;
 }
@@ -95,3 +101,14 @@ a {
 footer p {
   color: #ffff00;
 }
+/* a:link {
+  color: white;
+} */
+nav {
+  background-color: #0000ff;
+  /*  the element a doesn't accept inheritance */
+  /* color: white; */
+}
+/* nav a {
+  color: white;
+} */
