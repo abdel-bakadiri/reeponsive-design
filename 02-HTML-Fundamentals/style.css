@@ -1,3 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+article {
+  margin-bottom: 20px;
+}
+body {
+  padding: 20px;
+}
+aside {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main-header {
+  background-color: #e7e6e6;
+  padding: 20px;
+  border: solid 5px white;
+  margin-bottom: 10px;
+}
+.article-header {
+  margin-bottom: 20px;
+}
+ul,
+li {
+  margin-left: 30px;
+}
 h1,
 h2,
 h3,
@@ -10,9 +38,11 @@ h1,
 h2,
 h3 {
   color: #ff7f50;
+  margin-bottom: 10px;
 }
 p {
   color: #4b4b4b;
+  margin-bottom: 10px;
 }
 h1 {
   font-size: 24px;
@@ -31,7 +61,11 @@ h4 {
   text-align: center;
 }
 li {
-  size: 20px;
+  size: 10px;
+  margin-bottom: 20px;
+}
+li:last-child {
+  margin-bottom: 10px;
 }
 p {
   line-height: 1.5;
@@ -54,11 +88,7 @@ article header p {
   font-size: 18px;
   font-weight: bold;
 }
-.main-header {
-  background-color: #e7e6e6;
-  padding: 20px;
-  border: solid 5px white;
-}
+
 #principal-header {
   margin: 0px;
 }
