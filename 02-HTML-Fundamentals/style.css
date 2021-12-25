@@ -56,6 +56,11 @@ article header p {
 }
 .main-header {
   background-color: #e7e6e6;
+  padding: 20px;
+  border: solid 5px white;
+}
+#principal-header {
+  margin: 0px;
 }
 aside {
   background-color: #e7e6e6;
