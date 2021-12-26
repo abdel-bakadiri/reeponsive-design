@@ -2,11 +2,15 @@
   margin: 0;
   padding: 0;
 }
+body {
+  padding: 20px;
+}
 article {
   margin-bottom: 20px;
 }
-body {
-  padding: 20px;
+.container {
+  width: 800px;
+  margin: 0 auto;
 }
 aside {
   background-color: #e7e6e6;
@@ -22,7 +26,7 @@ aside {
   padding: 20px;
   border: solid 5px white;
   margin-bottom: 10px;
-  height: 80px;
+  /* height: 80px; */
 }
 .article-header {
   margin-bottom: 20px;
