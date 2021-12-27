@@ -26,7 +26,7 @@ aside {
   padding: 20px;
   border: solid 5px white;
   margin-bottom: 10px;
-  /* height: 80px; */
+  /* height: 180px; */
 }
 .article-header {
   margin-bottom: 20px;
@@ -122,4 +122,10 @@ a:active {
 .image-post {
   width: 100%;
   height: auto;
+}
+nav a:link {
+  background-color: coral;
+  display: block;
+  margin: 30px;
+  padding: 10px;
 }
