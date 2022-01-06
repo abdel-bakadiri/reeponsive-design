@@ -14,7 +14,7 @@ article {
 }
 aside {
   background-color: #e7e6e6;
-  width: 500px;
+  /* width: 500px; */
   border-top: 5px solid #158989;
   border-bottom: 5px solid #158989;
   padding-top: 10px;
