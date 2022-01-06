@@ -127,8 +127,14 @@ a:active {
   width: 100%;
   height: auto;
 }
+nav {
+  text-align: center;
+}
+
 nav a:link {
-  background-color: coral;
+  /* background-color: coral; */
+  margin: 30px;
+
   /* display: block;
   margin: 30px;
   padding: 10px; */
