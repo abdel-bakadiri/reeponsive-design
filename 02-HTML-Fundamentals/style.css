@@ -60,6 +60,7 @@ h1 {
   color: #a1af7b;
 }
 h2 {
+  position: relative;
   font-size: 40px;
 }
 h3 {
@@ -101,6 +102,9 @@ article header p {
 #principal-header {
   margin: 0px;
 }
+#principal-header::first-letter {
+  font-style: normal;
+}
 /* a {
   color: #ff0000;
 } */
@@ -128,4 +132,20 @@ nav a:link {
   /* display: block;
   margin: 30px;
   padding: 10px; */
+}
+.book {
+  font-weight: 100;
+}
+h3 + p {
+  color: green;
+}
+
+h2::after {
+  content: "🔥";
+  font-size: 20px;
+  background-color: yellow;
+  color: #ff0000;
+  position: absolute;
+  top: 0;
+  right: 65px;
 }
